@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
 // Start server in local environment, but export app for Vercel
 if (process.env.NODE_ENV !== 'production') {
   app.listen(port, () => {
-    console.log(`MAT Classroom server is running on port: ${port}`);
+    console.log(`MAT Classroom server is running on port: ${port}`); 
   });
 }
 
